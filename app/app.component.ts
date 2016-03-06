@@ -66,8 +66,8 @@ import {HeroDetailComponent} from './hero-detail.component';
             margin-right: .8em;
             border-radius: 4px 0 0 4px;
         }
-    `]
-
+    `],
+    directives: [HeroDetailComponent]
 })
 
 export class AppComponent {
